@@ -1,0 +1,187 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="134ab4b3-a914-41dc-b9a6-cfcc2d9b84b0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Accomodation</ID>
+  <Name>Accomodation</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="19db9da1-ab0e-477c-84ae-85c1b3887f29">
+    <DataSourceViewID>Prison</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="7e59a4e2-5e2b-44d0-a5af-b8176767727e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c30ce5b3-9e4f-4911-8470-a1e591c3a0e0">
+      <ID>Accommodation ID</ID>
+      <Name>Accommodation ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d0062330-cf7d-4cbf-a31a-9ca13a4b7273">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="38eeb57c-15e0-43fb-ab2a-4342bc25365e">
+            <TableID>dbo_Accomodation</TableID>
+            <ColumnID>AccommodationID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e66cd077-0d9e-4678-8e3b-6dec7e4151e9">
+          <AttributeID>Prisoner Class ID</AttributeID>
+          <Name>Prisoner Class ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="eb21238d-c86a-4e6d-b925-6909b3f4508f">
+          <AttributeID>Date Of Arrival ID</AttributeID>
+          <Name>Date Of Arrival ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e377dce7-cd61-48b9-9da4-002d9955b10d">
+          <AttributeID>Ceil ID</AttributeID>
+          <Name>Ceil ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1442dabc-0f0a-48d1-a7ef-4d92e55489fd">
+          <AttributeID>PESEL</AttributeID>
+          <Name>PESEL</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e94678fa-9fe3-4fea-a206-b4b0091397e9">
+          <AttributeID>Date Of Departure ID</AttributeID>
+          <Name>Date Of Departure ID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bf885634-5ca2-4c35-8d77-e41b7830cdb6">
+      <ID>Prisoner Class ID</ID>
+      <Name>Prisoner Class ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="23f03be8-2259-485b-8105-cf22b21b9cf3">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ab31d650-f36a-457c-b225-5e5e749f602e">
+            <TableID>dbo_Accomodation</TableID>
+            <ColumnID>PrisonerClassID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e2f87b36-70a5-471a-9f3a-795a65ef2008">
+      <ID>Date Of Arrival ID</ID>
+      <Name>Date Of Arrival ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="80329b81-c6e9-4bce-b87b-0fe2d02e57c2">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0baee12d-e874-4717-bee3-554ef5783ea7">
+            <TableID>dbo_Accomodation</TableID>
+            <ColumnID>DateOfArrivalID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="54335197-2030-4cdd-9e76-26ed6be6a631">
+      <ID>Ceil ID</ID>
+      <Name>Ceil ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="76e4e7f7-6830-4000-bf29-c0455793981c">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d2174c08-d0ce-4a79-8d05-62c3148fcfff">
+            <TableID>dbo_Accomodation</TableID>
+            <ColumnID>CeilID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c6a0f7d4-e769-4852-be31-3681abd4adac">
+      <ID>PESEL</ID>
+      <Name>PESEL</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ecdc6879-466e-40b0-99df-ee0f43faf382">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7bd4f9ec-fa97-4439-bf92-7d8baac5e3a2">
+            <TableID>dbo_Accomodation</TableID>
+            <ColumnID>PESEL</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bd321468-936b-4784-b6ad-7f46f1d428e1">
+      <ID>Date Of Departure ID</ID>
+      <Name>Date Of Departure ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0249a629-88af-4883-b7e0-cd3e6dc06d13">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="11ad40d4-cad2-4245-a6e6-d0722d037663">
+            <TableID>dbo_Accomodation</TableID>
+            <ColumnID>DateOfDepartureID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

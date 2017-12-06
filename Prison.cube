@@ -1,0 +1,1404 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d63b307b-dd90-4a59-88be-b040b9541ccf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Prison</ID>
+  <Name>Prison</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="54" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6795" scrolltop="-1508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="21537" y="22066" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Time" left="16592" top="17492" logicalid="27" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Time" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Date" left="7677" top="11485" logicalid="28" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Accomodation" left="-3367" top="9898" logicalid="29" controlid="3" masterid="0" hint1="0" hint2="0" width="3916" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00004c0f0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Accomodation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Prisoner" left="8921" top="741" logicalid="30" controlid="4" masterid="0" hint1="0" hint2="0" width="3228" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00009c0c0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Prisoner" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="PrisonerHistoryEntry" left="8538" top="4702" logicalid="31" controlid="5" masterid="0" hint1="0" hint2="0" width="3995" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00009b0f000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_PrisonerHistoryEntry" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Activity" left="11736" top="11521" logicalid="32" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Activity" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="HarmonogramEntry" left="9598" top="16822" logicalid="33" controlid="7" masterid="0" hint1="0" hint2="0" width="5159" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000271400009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_HarmonogramEntry" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Employee" left="14933" top="5549" logicalid="34" controlid="8" masterid="0" hint1="0" hint2="0" width="3228" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00009c0c0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Employee" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Ceil" left="478" top="17281" logicalid="35" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Ceil" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="PrisonerClass" left="10590" top="23041" logicalid="36" controlid="10" masterid="0" hint1="0" hint2="0" width="3175" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000670c000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_PrisonerClass" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="14457" top="17694" logicalid="37" controlid="11" masterid="0" hint1="0" hint2="0" width="2435" height="875" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Time_HarmonogramEntry-StartDate]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="10" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="16592" y="18093" />
+              <point x="15675" y="18093" />
+              <point x="15675" y="18269" />
+              <point x="14757" y="18269" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="14457" top="17694" logicalid="38" controlid="12" masterid="0" hint1="0" hint2="0" width="2435" height="875" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Time_HarmonogramEntry-EndDate]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="10" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="16592" y="18093" />
+              <point x="15157" y="18093" />
+              <point x="15157" y="18269" />
+              <point x="14757" y="18269" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="249" top="11898" logicalid="39" controlid="13" masterid="0" hint1="0" hint2="0" width="7728" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Date_Accomodation-DateOfArrival]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="12" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7677" y="12297" />
+              <point x="4113" y="12297" />
+              <point x="4113" y="12319" />
+              <point x="549" y="12319" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="249" top="11348" logicalid="40" controlid="14" masterid="0" hint1="0" hint2="0" width="7728" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Date_Accomodation-DateOfDeparture]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="10" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7677" y="11747" />
+              <point x="4113" y="11747" />
+              <point x="4113" y="11769" />
+              <point x="549" y="11769" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9878" top="13711" logicalid="41" controlid="15" masterid="0" hint1="0" hint2="0" width="949" height="3411" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Date_HarmonogramEntry-EndDate]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="7" sourceattachpoint="9" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10277" y="14210" />
+              <point x="10277" y="15516" />
+              <point x="10527" y="15516" />
+              <point x="10527" y="16822" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9328" top="13711" logicalid="42" controlid="16" masterid="0" hint1="0" hint2="0" width="949" height="3411" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Date_HarmonogramEntry-BeginDate]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="7" sourceattachpoint="7" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9727" y="14210" />
+              <point x="9727" y="15516" />
+              <point x="9977" y="15516" />
+              <point x="9977" y="16822" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7678" top="8821" logicalid="43" controlid="17" masterid="0" hint1="0" hint2="0" width="2057" height="3164" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Date_PrisonerHistoryEntry]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="0" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8077" y="11485" />
+              <point x="8077" y="10321" />
+              <point x="9435" y="10321" />
+              <point x="9435" y="9121" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="249" top="13119" logicalid="44" controlid="18" masterid="0" hint1="0" hint2="0" width="10641" height="11261" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_PrisonerClass_Accomodation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="3" sourceattachpoint="12" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10590" y="23980" />
+              <point x="7298" y="23980" />
+              <point x="7298" y="13419" />
+              <point x="549" y="13419" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-59" top="14440" logicalid="45" controlid="19" masterid="0" hint1="0" hint2="0" width="1337" height="3341" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Ceil_Accomodation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="3" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="878" y="17281" />
+              <point x="878" y="16011" />
+              <point x="241" y="16011" />
+              <point x="241" y="14740" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="249" top="1493" logicalid="46" controlid="20" masterid="0" hint1="0" hint2="0" width="8972" height="10026" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Prisoner_Accomodation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="12" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8921" y="1892" />
+              <point x="3149" y="1892" />
+              <point x="3149" y="11219" />
+              <point x="549" y="11219" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="249" top="6611" logicalid="47" controlid="21" masterid="0" hint1="0" hint2="0" width="8589" height="6658" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Accomodation_PrisonerHistoryEntry]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="25" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="549" y="12869" />
+              <point x="6237" y="12869" />
+              <point x="6237" y="6911" />
+              <point x="8538" y="6911" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9036" top="2544" logicalid="48" controlid="22" masterid="0" hint1="0" hint2="0" width="799" height="2458" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Prisoner_PrisonerHistoryEntry]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="1" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9435" y="3043" />
+              <point x="9435" y="4302" />
+              <point x="9435" y="4302" />
+              <point x="9435" y="4702" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="10785" top="8821" logicalid="49" controlid="23" masterid="0" hint1="0" hint2="0" width="2851" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Activity_PrisonerHistoryEntry]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="5" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13236" y="11521" />
+              <point x="13236" y="10321" />
+              <point x="11085" y="10321" />
+              <point x="11085" y="9121" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="12233" top="6512" logicalid="50" controlid="24" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_Employee_PrisonerHistoryEntry]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="5" sourceattachpoint="14" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14933" y="6911" />
+              <point x="12533" y="6911" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="10678" top="20517" logicalid="51" controlid="25" masterid="0" hint1="0" hint2="0" width="799" height="3024" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Rel_PrisonerClass_HarmonogramEntry]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="7" sourceattachpoint="0" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11077" y="23041" />
+              <point x="11077" y="21929" />
+              <point x="11077" y="21929" />
+              <point x="11077" y="20817" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="13633" top="4249" logicalid="52" controlid="26" masterid="0" hint1="0" hint2="0" width="2664" height="2512" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_EmployeeID_BossID]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="8" sourceattachpoint="12" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14933" y="6361" />
+              <point x="13933" y="6361" />
+              <point x="13933" y="4549" />
+              <point x="15997" y="4549" />
+              <point x="15997" y="5549" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-6795</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1508</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-3367</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>741</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="e793f220-91d9-4171-89ec-cf577275cc1a">
+      <ID>Accomodation</ID>
+      <Name>Accomodation</Name>
+      <DimensionID>Accomodation</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6767bb5c-c352-4e2f-b360-cbad818cc7ed">
+          <AttributeID>Accommodation ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d716bae0-ea04-4158-9d4c-4d559e3be239">
+          <AttributeID>Prisoner Class ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0960b6bf-0573-47c1-a808-b2d8b7d230f2">
+          <AttributeID>Date Of Arrival ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a8ff1ad3-6605-4e44-b272-722524dc8db8">
+          <AttributeID>Ceil ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2489ff77-cd4d-4b0c-9690-346527677efc">
+          <AttributeID>PESEL</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="19f97984-8683-4ce7-a3e8-a04f65ea8218">
+          <AttributeID>Date Of Departure ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5612e346-4d81-4142-9364-60b9617c5d77">
+      <ID>Prisoner Class</ID>
+      <Name>Prisoner Class</Name>
+      <DimensionID>Prisoner Class</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ac17395f-81dd-49de-905e-1fcd45655329">
+          <AttributeID>Prisoner Class ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e427a7df-eff3-4333-b0bd-730f23f917e7">
+          <AttributeID>Description</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="98661078-9b14-4db4-8782-909f2ffa87db">
+      <ID>Date Of Arrival</ID>
+      <Name>Date Of Arrival</Name>
+      <DimensionID>Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="83ce6ca2-a416-4b5b-91c1-21c86163183b">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e76d54a5-92cd-4a9e-b6bf-791537812b3e">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dcdbb3c7-4414-4202-adc7-bafb50a0f619">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8d3c10eb-8010-4327-a34c-bb912c307133">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="199e6529-d1fd-4e45-b7ef-53065bbd319a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="94afd836-3ca2-4ea0-a1ba-e670934e0ed2">
+      <ID>Ceil</ID>
+      <Name>Ceil</Name>
+      <DimensionID>Ceil</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d2be91b1-e7e0-4083-85a2-2afa0958185a">
+          <AttributeID>Ceil ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ba3b31e1-9614-4b53-b612-00f0669fed35">
+          <AttributeID>Floor</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="29ddfd04-8040-45dd-9e4e-85407e444a3c">
+          <AttributeID>Description</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="96a7315b-5a33-4830-b56b-127f63641d46">
+          <AttributeID>Block</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4d7c22ba-cdcf-4960-a25f-b8af591c9c6b">
+          <AttributeID>Standard</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="dccbd567-96fc-4259-8efe-0e6b26065192">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="3bbb42d5-1136-48fd-9da2-5d48799dc67b">
+      <ID>Prisoner</ID>
+      <Name>Prisoner</Name>
+      <DimensionID>Prisoner</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cca93545-3a83-434b-833d-105dc145fdea">
+          <AttributeID>PESEL</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6a43b9e-1f63-4d25-bb2a-2a23473217ad">
+          <AttributeID>Name Surname</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ea6434fc-012b-41bb-a0ce-d4ad9a1c8b54">
+          <AttributeID>Age</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9fecf861-3dea-4a88-9616-1a5880abe20a">
+      <ID>Date Of Departure</ID>
+      <Name>Date Of Departure</Name>
+      <DimensionID>Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1e8d7e3d-e7ce-4caa-b2f8-581cbce377c6">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81368933-997a-4c50-8853-7c5c2e936c62">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ee087eeb-2bce-49ba-874c-7341c33a4078">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a0b096e4-71aa-49e5-8d0d-81791966c201">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="8dd7d951-4dfd-43e6-b5f1-d8dd67f699ec">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="97f8bc07-c7ce-45d9-8fc6-3debfce150cf">
+      <ID>End Date</ID>
+      <Name>End Date</Name>
+      <DimensionID>Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cbdb4e2b-6032-4035-aa89-08aec6f1a496">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eed36fde-e1c8-47e9-a427-1f0796511422">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="adc648b4-4083-4c99-8a91-26f07352c312">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b2036d4f-7216-445e-89d8-be928b83a5aa">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="fa270b33-b971-45d5-9b86-77f951d63cbb">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="8e057271-f5b4-4236-86cb-6f4c82f675fe">
+      <ID>Begin Date</ID>
+      <Name>Begin Date</Name>
+      <DimensionID>Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="195567da-93b1-4e78-8735-fe61468aa748">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cac24ac6-a882-4959-aaeb-3aed4b32ec38">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="812efe72-1124-45f3-acc5-1693b3b0678b">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d00e9253-46f4-4d30-960d-918555b33d4e">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="bcc467f7-d84b-4ff5-987f-281d4d768021">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="c6f46a0a-2188-43a6-a25e-e64e53945d11">
+      <ID>Start Time</ID>
+      <Name>Start Time</Name>
+      <DimensionID>Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8f07f43a-56ed-4501-b6c7-437a071822a0">
+          <AttributeID>Time ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8e50a531-c3e8-4cc9-8cff-7b89581ad17a">
+          <AttributeID>Hour</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="05185801-e1aa-406e-b26e-9f15d9b0c0d1">
+          <AttributeID>Minute</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="3de4acc4-7248-4487-ad53-589f647d8032">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="a13c88e0-2c6f-483c-9f6c-10102a594a0a">
+      <ID>End T Ime</ID>
+      <Name>End T Ime</Name>
+      <DimensionID>Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8b2f256d-ed5f-498b-b059-77bdb69c6df8">
+          <AttributeID>Time ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c35ad8e3-12f3-47f6-8383-a7f89ad08268">
+          <AttributeID>Hour</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e308d79f-b4b5-44b8-bf7e-5c0a560f8b9a">
+          <AttributeID>Minute</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="7befc441-b970-4e6d-84c6-a91393fd1a2c">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="347109dd-643f-421c-ae31-3fd3cdaf0e88">
+      <ID>Date Of Occurence</ID>
+      <Name>Date Of Occurence</Name>
+      <DimensionID>Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6433197f-c4e1-4c04-a0e3-5f42b0214101">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7516e649-d300-42c3-990c-b4c64476b28a">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6abdebcf-1c81-4539-a3e1-d50af323c8a2">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02e49043-50fb-4dfe-95ae-c6f090b0a96b">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="0b6f187b-2f81-4e15-8d28-658087c02a44">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="cecb2152-c90b-401e-978f-f14d334f1173">
+      <ID>Activity</ID>
+      <Name>Activity</Name>
+      <DimensionID>Activity</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3958c624-8af8-4f8a-a7ec-e48b3f3840cc">
+          <AttributeID>Activity ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="efb2da1d-67d9-4f30-bd5c-abe8a1497f34">
+          <AttributeID>Length</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f40cda2e-6c8b-4160-b712-683c4b3f88d4">
+          <AttributeID>Description</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="0a1e6714-0e11-4f42-a581-9334b0f63ab8">
+      <ID>Employee</ID>
+      <Name>Employee</Name>
+      <DimensionID>Employee</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c4afb66f-36cd-40bb-b937-9fbcb3c84871">
+          <AttributeID>Employee ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3fc7357b-2ce5-4359-bce0-528e9b6e9baf">
+          <AttributeID>Boss ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="099f159d-e3c1-4851-a9c4-000232eed169">
+          <AttributeID>Name Surname</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c9cd0111-4217-49cd-acab-6353cf5003a6">
+          <AttributeID>Role Description</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="68941fc5-d520-45b9-888b-a90234b8542d">
+      <ID>Accomodation - Date Of Arrival</ID>
+      <Name>Accomodation - Date Of Arrival</Name>
+      <DimensionID>Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f52932c4-3ae8-4dbc-ac48-4a3963087ece">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ee5c4350-a52d-4412-bc99-ff2d87dad72d">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="281599e8-c446-4f23-9020-f47be38f553b">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0f05f367-a97c-4185-a6a2-bfb26950c536">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="9501c8d5-a62f-4a83-820e-43d169fe827f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="52bd33b2-e733-4245-a1b0-4b3444ebd35a">
+      <ID>Accomodation - PESEL</ID>
+      <Name>Accomodation - PESEL</Name>
+      <DimensionID>Prisoner</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e758278b-8e6c-46a4-b462-cf0fa2790486">
+          <AttributeID>PESEL</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="13375f48-30e3-45e5-a45b-61137ca59568">
+          <AttributeID>Name Surname</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5df736f7-c95b-46cd-b0bc-fab275b0beec">
+          <AttributeID>Age</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="225823f1-135b-49d8-905b-112e3005fa11">
+      <ID>Accomodation - Date Of Departure</ID>
+      <Name>Accomodation - Date Of Departure</Name>
+      <DimensionID>Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="37802030-344a-44e2-b6f6-223ed270a163">
+          <AttributeID>Date ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2644626f-4a80-43f8-bc2a-5a03565d199f">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b4f291e-3f88-4798-8437-5f33e1bb5bc7">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="46bf362b-c059-4927-9ff5-bf29945a7cc5">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b7126c6e-a4ce-459a-8263-26f8d8a65314">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="a06f0538-d375-48ce-97fc-898821567bc1">
+      <ID>Prisoner History Entry - TypeOfEntry</ID>
+      <Name>Prisoner History Entry - TypeOfEntry</Name>
+      <DimensionID>Prisoner History Entry</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="58d497be-e2df-4820-bf88-7ceb160fca32">
+          <AttributeID>Type Of Entry</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d9b72a9f-f895-4b1f-9e92-2d1851efd662">
+      <ID>Employee - ReccurentBoss</ID>
+      <Name>Employee - ReccurentBoss</Name>
+      <DimensionID>Employee - ReccurentBoss</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="fdbd7b08-f083-46df-8785-0e07079d7116">
+          <AttributeID>Employee ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ca910f6c-04e7-47b0-a597-0093d09b36ca">
+          <AttributeID>Boss ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="d3c6fbca-cb6b-41a3-9f24-7c0aaca0fd57">
+      <ID>Accomodation</ID>
+      <Name>Accomodation</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="a5d39adf-cf34-47b5-8430-967d46d2f2ff">
+          <ID>Length Of Stay</ID>
+          <Name>Length Of Stay</Name>
+          <Source dwd:design-time-name="d1e2da80-ebbc-4aba-9fd3-bf59648edb06">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="95d6a612-d880-41ef-8bb9-53265f415fbf">
+              <TableID>dbo_Accomodation</TableID>
+              <ColumnID>LengthOfStay</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ccd22927-6ad4-4b18-b380-051c651e12fa">
+          <ID>Estimated Cost Per Day</ID>
+          <Name>Estimated Cost Per Day</Name>
+          <Source dwd:design-time-name="7aaf84ca-e204-40f0-b8d4-c38fec0c6cda">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="db077899-091e-425a-86bf-ef7146b43401">
+              <TableID>dbo_Accomodation</TableID>
+              <ColumnID>EstimatedCostPerDay</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d6abacd4-f1aa-4644-b6ec-8780bb9eabc7">
+          <ID>Revenue Per Day</ID>
+          <Name>Revenue Per Day</Name>
+          <Source dwd:design-time-name="598daeae-a278-4682-9eda-e36db9bf79fc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cf6bb1be-4f3e-4e07-8e35-7a4f41ad08b4">
+              <TableID>dbo_Accomodation</TableID>
+              <ColumnID>RevenuePerDay</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3c521f18-dc4a-44c0-9155-7b3b12258c95">
+          <ID>Accomodation Count</ID>
+          <Name>Accomodation Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="dd81fbbe-921d-4ea5-84e2-3c4f9acd1c77">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="fded55e9-8916-446a-8ac5-38d2f5da625d">
+              <TableID>dbo_Accomodation</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="4ef541ed-afad-4c52-a5f8-bc28c5f67c66">
+          <CubeDimensionID>Accomodation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1e5778c0-672f-4654-a3aa-fcc847d22425">
+              <AttributeID>Accommodation ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f330b853-6946-43a9-961d-d2833dcb4dce">
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="96c0723c-d174-4a7a-b969-9143dceb8d16">
+                    <TableID>dbo_Accomodation</TableID>
+                    <ColumnID>AccommodationID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f9e46d58-a057-4cb5-8d99-8b9af99e5185">
+          <CubeDimensionID>Prisoner Class</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2ab88cd5-280f-4da6-a657-3e4cea5e9901">
+              <AttributeID>Prisoner Class ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f24f2833-c5b7-40e5-9547-ab46105e111e">
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1aabb5f4-e55d-49d8-ab54-d96605d2d720">
+                    <TableID>dbo_Accomodation</TableID>
+                    <ColumnID>PrisonerClassID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7ad99e1b-86bb-4502-97b7-d4542ec7c105">
+          <CubeDimensionID>Date Of Arrival</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e75f2226-55e0-4e87-a76a-6b5463a226a3">
+              <AttributeID>Date ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="203e6a42-f969-45ef-940a-e6b6673120ab">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fec3e8fe-defe-469f-87ea-7654f15f17d9">
+                    <TableID>dbo_Accomodation</TableID>
+                    <ColumnID>DateOfArrivalID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="313f5aaa-0a74-41e9-a4e8-01b0c4e2d544">
+          <CubeDimensionID>Ceil</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6f861f32-1ba9-4db6-8be0-f122cb7e94fd">
+              <AttributeID>Ceil ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d6c5f2ab-3e6c-4aa7-a870-fbaf066ae301">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7c47ab19-92e5-44df-a2bc-00aed5746ec7">
+                    <TableID>dbo_Accomodation</TableID>
+                    <ColumnID>CeilID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fc8c6a75-1cda-485d-8741-c0012dc25f8a">
+          <CubeDimensionID>Prisoner</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="053561c1-704e-4229-93a3-7dad33c1a44d">
+              <AttributeID>PESEL</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8c9a9d61-461a-40cb-b4d7-666868d54438">
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1b47ab0a-ab07-474a-9e3d-5fa21dfe7f14">
+                    <TableID>dbo_Accomodation</TableID>
+                    <ColumnID>PESEL</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0201c377-52da-4572-b86e-eae10c4f6759">
+          <CubeDimensionID>Date Of Departure</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="46439391-8707-4fa3-96b3-93f8cc3574e2">
+              <AttributeID>Date ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f5a129c0-7ddd-48a4-8060-a53ddb9e44ce">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4a4767f2-5f0c-4d7a-a397-0ba33ff3c82d">
+                    <TableID>dbo_Accomodation</TableID>
+                    <ColumnID>DateOfDepartureID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="55fabf7c-4c28-461d-bee6-6ddc8a5af425">
+      <ID>Harmonogram Entry</ID>
+      <Name>Harmonogram Entry</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="df30d0b2-9eb7-41dc-adec-f19480dd81a8">
+          <ID>Harmonogram Entry Count</ID>
+          <Name>Harmonogram Entry Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="de81b12f-c042-4db6-8ce9-cab8ee057851">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="0489f829-570f-477f-8225-500fc0054fd3">
+              <TableID>dbo_HarmonogramEntry</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e9355ac4-cf06-4c81-97d7-4684bf168c2b">
+          <CubeDimensionID>End Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7aec6bd1-634d-4b08-b452-2f8de92aee74">
+              <AttributeID>Date ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="298308c3-3a66-4c1e-a1f5-d74f65792322">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="779cacbe-4c7d-4772-80a4-94355bd56309">
+                    <TableID>dbo_HarmonogramEntry</TableID>
+                    <ColumnID>EndDateID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9c35f132-135d-4a99-98ab-dc19a9c9b066">
+          <CubeDimensionID>Begin Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fde871be-a20f-4cc8-82d6-a02794da3f40">
+              <AttributeID>Date ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8e063008-afb9-41c3-b4b6-9da409c543ba">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8da3aa03-ea94-465d-8160-4564a311d2c6">
+                    <TableID>dbo_HarmonogramEntry</TableID>
+                    <ColumnID>BeginDateID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7050cdcc-6d5f-4c3e-b96b-9ce22cb15081">
+          <CubeDimensionID>Start Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fdfaa8a9-b155-4cc9-9895-95396e8664e0">
+              <AttributeID>Time ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7d89146c-02d4-48da-ae0e-c17a732a8b02">
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a98261dc-902f-47c6-861e-70e70e20443f">
+                    <TableID>dbo_HarmonogramEntry</TableID>
+                    <ColumnID>StartTimeID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="875fdcd2-b192-41b7-8e66-fdc1b46b830f">
+          <CubeDimensionID>End T Ime</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c490df78-37a6-49fe-b759-daa9c9f4c6bd">
+              <AttributeID>Time ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cacf2e71-96c3-40d0-a199-89bf155adfcf">
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0e9d6264-fb04-4ec5-ae26-c55445ad7983">
+                    <TableID>dbo_HarmonogramEntry</TableID>
+                    <ColumnID>EndTImeID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f0c6a8e1-92ef-4e93-9cc8-f540a001cd12">
+          <CubeDimensionID>Prisoner Class</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ac4e6831-607a-4a14-a843-1cc212202c35">
+              <AttributeID>Prisoner Class ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f108d9df-a398-4d27-957c-61b54c25d93d">
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5122b56c-3615-455d-a9e5-7b70bc16e058">
+                    <TableID>dbo_HarmonogramEntry</TableID>
+                    <ColumnID>PrisonerClassID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="a1f3621a-b16c-44a8-8598-366a386ff90a">
+      <ID>Prisoner History Entry</ID>
+      <Name>Prisoner History Entry</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e28d1dca-701e-424d-ade8-fad82f71c16f">
+          <ID>Prisoner History Entry Count</ID>
+          <Name>Prisoner History Entry Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="387401aa-81c2-4b6b-87fb-b3dc38a5de5c">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="b1cebbf6-3024-4c9d-8e4c-271a20d867c1">
+              <TableID>dbo_PrisonerHistoryEntry</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9645f9c9-2e82-47b1-8e52-21be9f1e12ac">
+          <CubeDimensionID>Date Of Occurence</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e6e3e119-2c66-4cd3-ae4c-9d65b4a94ddf">
+              <AttributeID>Date ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="85c21676-c3ff-4f93-aee2-d87641721064">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4cf0c340-6157-4b6e-a523-3cd0b02b54b3">
+                    <TableID>dbo_PrisonerHistoryEntry</TableID>
+                    <ColumnID>DateOfOccurenceID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="aa0563dd-4526-412f-aa73-4e4f317a4fc1">
+          <CubeDimensionID>Prisoner</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="aa8176d3-068e-4dfc-abe9-b1e10860af23">
+              <AttributeID>PESEL</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8d297341-c29d-4e39-abfd-804f168df919">
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="15d52c9e-71b9-45be-a344-0e9e7015e242">
+                    <TableID>dbo_PrisonerHistoryEntry</TableID>
+                    <ColumnID>PESEL</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9d60d981-d690-4a07-96fb-f1ac88aa8148">
+          <CubeDimensionID>Activity</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="73e4298b-7e37-4a4a-841c-666236708b24">
+              <AttributeID>Activity ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="46cb26a4-7ea7-4014-a91d-16696705a7f0">
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="866d144c-7172-4738-a568-ebf30ccd93de">
+                    <TableID>dbo_PrisonerHistoryEntry</TableID>
+                    <ColumnID>ActivityID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d84fc04e-1e5e-41f2-98b7-99bedecf1b16">
+          <CubeDimensionID>Employee</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="311a9884-9142-4852-ab9d-6e3a0c10806e">
+              <AttributeID>Employee ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c353b12f-4f7a-4feb-8221-aca86356632c">
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d59318ac-689d-4744-b560-1a3d2a87374e">
+                    <TableID>dbo_PrisonerHistoryEntry</TableID>
+                    <ColumnID>EmployeeID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="087c295a-99f7-4b45-ab31-387694ac6d2b">
+          <CubeDimensionID>Accomodation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a0ec1df4-e261-4d04-bb61-9217c1828928">
+              <AttributeID>Accommodation ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0ef2777a-171d-4645-a4ad-ac9fdc4d2474">
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3f408747-e0e4-4c4e-8585-be371fa3ade2">
+                    <TableID>dbo_PrisonerHistoryEntry</TableID>
+                    <ColumnID>AccomodationID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="17de4357-4d06-4a46-87ff-4b2425c6ee2f">
+          <CubeDimensionID>Prisoner Class</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="adae7190-0d46-48b2-a18f-77e986210964">
+              <AttributeID>Prisoner Class ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Accomodation</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Prisoner Class ID</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="e14955fd-bbd9-4a0e-b73e-a7f3413a8ced">
+          <CubeDimensionID>Accomodation - Date Of Arrival</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="869e8804-9879-40b8-90b2-8f37d9cfe9d1">
+              <AttributeID>Date ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Accomodation</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Date Of Arrival ID</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="12ff3a22-73eb-4ce2-98f8-e1c24aaae8e1">
+          <CubeDimensionID>Ceil</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="31baa7d1-0c72-4f9a-9ccc-ca49e8656b4f">
+              <AttributeID>Ceil ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Accomodation</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Ceil ID</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f1ce3e07-7f78-496a-9de6-32d239d9269b">
+          <CubeDimensionID>Accomodation - PESEL</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7de6ef89-7818-41e1-bf87-4b5ce9abb9ff">
+              <AttributeID>PESEL</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Accomodation</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>PESEL</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="a5a7822f-0eeb-4165-bc86-a828fb7a79e1">
+          <CubeDimensionID>Accomodation - Date Of Departure</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cb4c7ce3-17d5-43a2-b80b-210d0b1b5790">
+              <AttributeID>Date ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Accomodation</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Date Of Departure ID</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="8a8cd77e-0668-4b8e-911a-f9db6fca5106">
+          <CubeDimensionID>Prisoner History Entry - TypeOfEntry</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a001c1d1-386e-4a9d-ab55-3ef3159973ae">
+              <AttributeID>Type Of Entry</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dc82723b-e1d8-4f48-aa10-9c9136fc949d">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8b7c50b5-6544-4409-9f3d-1e28aef5a9c9">
+                    <TableID>dbo_PrisonerHistoryEntry</TableID>
+                    <ColumnID>TypeOfEntry</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8e49a617-bce6-4745-8270-21a915aa0468">
+          <CubeDimensionID>Employee - ReccurentBoss</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c1e8e0c0-ef52-4d12-9e8f-3d48402e8d3a">
+              <AttributeID>Employee ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b4c2492a-78f2-480f-a5c1-9f3db49fc5e9">
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6610c6d9-905e-4980-8104-2c9261703747">
+                    <TableID>dbo_PrisonerHistoryEntry</TableID>
+                    <ColumnID>EmployeeID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="9d951198-8e0d-4410-9c52-fa29b1fc2869">
+    <DataSourceViewID>Prison</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="0cfd1c98-d343-4a7b-925e-e9272176c85d">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE
+; 
+CREATE MEMBER CURRENTCUBE.[Measures].Podatek
+ AS 0.10 * [MEASURES].[RevenuePerDay], 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>
